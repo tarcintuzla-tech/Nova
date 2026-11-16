@@ -1,0 +1,38 @@
+import { l, type L } from './helpers';
+
+export type QuizQuestion = { id: string; module: 'learning' | 'people'; q: L; options: L[]; answer: number; explain: L };
+
+export const QUIZ: QuizQuestion[] = [
+  { id: 'q1', module: 'learning', q: l("Bir ahtapotun kaç kalbi vardır?", "How many hearts does an octopus have?"),
+    options: [l("Bir", "One"), l("İki", "Two"), l("Üç", "Three")], answer: 2,
+    explain: l("İki kalp solungaçlara, üçüncüsü vücuda kan pompalar.", "Two pump blood to the gills, a third to the body.") },
+  { id: 'q2', module: 'learning', q: l("Güneş ışığı Dünya'ya yaklaşık ne kadar sürede ulaşır?", "About how long does sunlight take to reach Earth?"),
+    options: [l("8 dakika", "8 minutes"), l("8 saat", "8 hours"), l("8 saniye", "8 seconds")], answer: 0,
+    explain: l("Ortalama yaklaşık 8 dakika 20 saniye.", "About 8 minutes 20 seconds on average.") },
+  { id: 'q3', module: 'learning', q: l("Sokrates'in kendi yazdığı eserler var mıdır?", "Did Socrates leave writings of his own?"),
+    options: [l("Evet, birçok kitap", "Yes, many books"), l("Hayır, öğrencileri aracılığıyla biliniyor", "No, he is known through his students"), l("Yalnızca bir şiir", "Only one poem")], answer: 1,
+    explain: l("Düşünceleri çoğunlukla Platon ve Ksenophon'dan öğrenilir.", "His ideas are mostly known from Plato and Xenophon.") },
+  { id: 'q4', module: 'learning', q: l("Bir bayt kaç bittir?", "How many bits are in a byte?"),
+    options: [l("4", "4"), l("8", "8"), l("16", "16")], answer: 1, explain: l("Bir bayt 8 bittir.", "A byte is 8 bits.") },
+  { id: 'q5', module: 'learning', q: l("İki insanın DNA'sı yaklaşık yüzde kaç aynıdır?", "Roughly what percentage of DNA do two people share?"),
+    options: [l("%50", "50%"), l("%90", "90%"), l("%99,9", "99.9%")], answer: 2, explain: l("Fark çok küçüktür, yaklaşık %0,1.", "The difference is tiny, about 0.1%.") },
+  { id: 'q6', module: 'learning', q: l("Mercanlar nedir?", "What are corals?"),
+    options: [l("Bitki", "Plants"), l("Hayvan", "Animals"), l("Kaya", "Rocks")], answer: 1, explain: l("Polip adlı küçük hayvanların kolonileridir.", "They are colonies of small animals called polyps.") },
+  { id: 'q7', module: 'learning', q: l("İlk web sitesi hangi yıl yayınlandı?", "In which year did the first website go live?"),
+    options: [l("1975", "1975"), l("1991", "1991"), l("2001", "2001")], answer: 1, explain: l("Tim Berners-Lee, 1991'de CERN'de yayınladı.", "Tim Berners-Lee published it at CERN in 1991.") },
+  { id: 'q8', module: 'learning', q: l("Uyku sırasında beyin öğrenilenlere ne yapar?", "What does the brain do with learning during sleep?"),
+    options: [l("Pekiştirmeye yardımcı olur", "Helps consolidate it"), l("Tamamen siler", "Erases it"), l("Hiçbir şey yapmaz", "Does nothing")], answer: 0,
+    explain: l("Uyku, hafızanın kalıcı hale gelmesinde rol oynar.", "Sleep plays a role in making memories lasting.") },
+  { id: 'q9', module: 'people', q: l("Aktif dinlemede en önemli unsur nedir?", "What matters most in active listening?"),
+    options: [l("Cevabını hazırlamak", "Preparing your answer"), l("Karşındakini anlamaya odaklanmak", "Focusing on understanding the other person"), l("Hemen çözüm sunmak", "Offering a solution right away")], answer: 1,
+    explain: l("Amaç, önce anlamaktır.", "The aim is to understand first.") },
+  { id: 'q10', module: 'people', q: l("“Ben dili” ne demektir?", "What is an “I statement”?"),
+    options: [l("Kendi duygunu suçlamadan ifade etmek", "Expressing your feeling without blaming"), l("Hep kendinden bahsetmek", "Always talking about yourself"), l("Karşıdakini susturmak", "Silencing the other person")], answer: 0,
+    explain: l("Deneyimini anlatır, karşındakini yargılamaz.", "It describes your experience without judging the other person.") },
+  { id: 'q11', module: 'people', q: l("Tek bir beden dili işareti kesin bir sonuç verir mi?", "Does a single body-language signal give a certain conclusion?"),
+    options: [l("Evet, her zaman", "Yes, always"), l("Hayır, bağlam ve kişinin olağan hâli önemlidir", "No, context and the person's usual manner matter"), l("Yalnızca yüz ifadesi için", "Only for facial expressions")], answer: 1,
+    explain: l("Yorumlar olasılıktır, kesinlik değil.", "Readings are possibilities, not certainties.") },
+  { id: 'q12', module: 'people', q: l("Temel yükleme hatası neyi anlatır?", "What does the fundamental attribution error describe?"),
+    options: [l("Başkalarının davranışını kişiliğine bağlama eğilimini", "Explaining others' behaviour by their character"), l("Hata yapmaktan kaçınmayı", "Avoiding mistakes"), l("Hafızanın zayıflamasını", "Memory weakening")], answer: 0,
+    explain: l("Kendi davranışımızı ise koşullara bağlama eğilimindeyiz.", "We tend to explain our own behaviour by circumstances.") },
+];

@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "NOVA",
+    "slug": "nova",
+    "scheme": "nova",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      "expo-sqlite",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#294C3B"
+        }
+      ]
+    ],
+    "android": {
+      "package": "app.nova.mobile",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#294C3B"
+      }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b4b638c3-9128-4138-9f88-da91e064fe46"
+      }
+    }
+  }
+}

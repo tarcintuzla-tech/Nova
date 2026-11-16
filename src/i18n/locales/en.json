@@ -1,0 +1,319 @@
+{
+  "app": {
+    "tagline": "Discover yourself. Understand the world. Leave a mark."
+  },
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "loading": "Loading"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "save": "Could not save. Please try again.",
+    "load": "Could not load the data.",
+    "retry": "Try again",
+    "boundaryTitle": "An unexpected error"
+  },
+  "validation": {
+    "required": "This field cannot be empty.",
+    "tooLong": "You can enter at most {{max}} characters."
+  },
+  "notif": {
+    "title": "NOVA",
+    "body": "How about taking a small moment for yourself today?"
+  },
+  "tabs": {
+    "home": "Home",
+    "discover": "Discover",
+    "progress": "Progress",
+    "profile": "Profile"
+  },
+  "onboarding": {
+    "welcomeTitle": "Welcome to NOVA",
+    "welcomeBody": "A calm space to know yourself, learn new things and do some good around you. No account needed; your data stays on your device.",
+    "language": "Language",
+    "offersTitle": "What does NOVA offer?",
+    "offersBody": "Six modules, short and meaningful steps every day.",
+    "interestsTitle": "What are you interested in?",
+    "interestsBody": "Pick what you like, or skip.",
+    "goalsTitle": "Where would you like to grow?",
+    "goalsBody": "You can change this later.",
+    "notifTitle": "Reminders",
+    "notifBody": "At most one gentle reminder a day (8 pm). Keep it off if you prefer.",
+    "notifToggle": "Daily reminder",
+    "enterTitle": "You're ready",
+    "enterBody": "What should we call you?",
+    "namePlaceholder": "Your name (optional)",
+    "enter": "Enter NOVA"
+  },
+  "modules": {
+    "self": {
+      "title": "Self Discovery",
+      "desc": "Daily questions, journal, values and goals."
+    },
+    "learning": {
+      "title": "Daily Learning",
+      "desc": "Short, accurate and interesting knowledge every day."
+    },
+    "awareness": {
+      "title": "Awareness",
+      "desc": "Pay attention to the present with short exercises."
+    },
+    "growth": {
+      "title": "Personal Growth",
+      "desc": "Habits, tasks and goals."
+    },
+    "kindness": {
+      "title": "Kindness Chain",
+      "desc": "Small but real contributions to society."
+    },
+    "people": {
+      "title": "Understand People",
+      "desc": "Empathy, communication and social awareness."
+    }
+  },
+  "sections": {
+    "self": {
+      "today": "Today",
+      "journal": "Journal",
+      "values": "Values",
+      "strengths": "Strengths",
+      "goals": "Goals",
+      "history": "History",
+      "summary": "Summary"
+    },
+    "learning": {
+      "today": "Today",
+      "library": "Library",
+      "favorites": "Favorites",
+      "history": "Reading history",
+      "quiz": "Quiz"
+    },
+    "awareness": {
+      "today": "Today",
+      "exercises": "Exercises",
+      "gratitude": "Gratitude",
+      "reflection": "Reflection",
+      "history": "History"
+    },
+    "growth": {
+      "today": "Today",
+      "habits": "Habits",
+      "goals": "Goals",
+      "stats": "Stats"
+    },
+    "kindness": {
+      "today": "Today",
+      "ideas": "Ideas",
+      "history": "History"
+    },
+    "people": {
+      "cards": "Cards",
+      "scenarios": "Scenarios",
+      "reflection": "Reflection",
+      "quiz": "Quiz",
+      "saved": "Saved"
+    }
+  },
+  "categories": {
+    "psychology": "Psychology",
+    "science": "Science",
+    "history": "History",
+    "philosophy": "Philosophy",
+    "technology": "Technology",
+    "general": "General knowledge",
+    "nature": "Nature",
+    "behavior": "Human behavior",
+    "empathy": "Empathy",
+    "communication": "Communication",
+    "emotional": "Emotional intelligence",
+    "listening": "Listening",
+    "conflict": "Conflict resolution",
+    "body": "Body language",
+    "social": "Social awareness"
+  },
+  "goalAreas": {
+    "focus": "Focus",
+    "habits": "Habits",
+    "selfKnow": "Self-knowledge",
+    "learning": "Learning",
+    "kindness": "Kindness",
+    "communication": "Communication"
+  },
+  "kind": {
+    "daily": "Daily question",
+    "journal": "Journal",
+    "gratitude": "Gratitude",
+    "strength": "Strength",
+    "awareness": "Awareness",
+    "reflection": "Reflection"
+  },
+  "exType": {
+    "observe": "Observation",
+    "breath": "Breath",
+    "empathy": "Empathy",
+    "body": "Body"
+  },
+  "kcat": {
+    "help": "Helping",
+    "environment": "Environment",
+    "community": "Community"
+  },
+  "home": {
+    "greetingMorning": "Good morning",
+    "greetingDay": "Good afternoon",
+    "greetingEvening": "Good evening",
+    "dailyQuestion": "Question of the day",
+    "dailyCard": "Card of the day",
+    "modules": "Modules",
+    "recentSaved": "Recently saved",
+    "emptySaved": "Nothing saved yet. Items you favorite will appear here.",
+    "fact": "Verified fact",
+    "interpretation": "Interpretation / model",
+    "progressToday": "Today's progress",
+    "recommended": "Recommended activities",
+    "recReflect": "Reflect",
+    "recAware": "Awareness exercise",
+    "recKind": "Today's kindness",
+    "tasksLabel": "Tasks {{done}}/{{total}}",
+    "habitsLabel": "Habits {{done}}/{{total}}",
+    "reflectionDone": "Question answered",
+    "reflectionOpen": "Question open",
+    "kindDone": "Kindness done",
+    "kindOpen": "Kindness open"
+  },
+  "discover": {
+    "title": "Discover",
+    "search": "Search all cards"
+  },
+  "journal": {
+    "placeholder": "Write what's on your mind…",
+    "save": "Add to journal",
+    "empty": "No entries yet. You can write your first note.",
+    "deleteConfirm": "Delete this entry?"
+  },
+  "goals": {
+    "placeholder": "Write a new goal",
+    "empty": "No goals yet.",
+    "deleteConfirm": "Delete this goal?"
+  },
+  "self": {
+    "answerPlaceholder": "Write your answer (stored only on this device)",
+    "valuesIntro": "Choose up to {{max}} values that matter to you.",
+    "valuesCount": "{{n}} / {{max}} selected",
+    "strengthsNote": "These exercises are for your own reflection; they are not a clinical assessment or diagnosis.",
+    "answered": "Answered",
+    "noStrengths": "No answers yet.",
+    "summaryTitle": "Your summary",
+    "summaryEntries": "You have written {{n}} entries.",
+    "summaryGoals": "Completed goals: {{n}}"
+  },
+  "learning": {
+    "search": "Search cards",
+    "all": "All",
+    "noResults": "No results found.",
+    "emptyFavorites": "No favorites yet. Tap a card's heart to add it.",
+    "emptyHistory": "No cards read yet. Cards you open will appear here.",
+    "historyCount": "You have read {{n}} different cards.",
+    "addFav": "Add to favorites",
+    "removeFav": "Remove from favorites"
+  },
+  "quiz": {
+    "progress": "Question {{n}} / {{total}}",
+    "correct": "Correct!",
+    "wrong": "Not this time.",
+    "finish": "Finish",
+    "score": "Score: {{score}} / {{total}}",
+    "again": "Try again"
+  },
+  "awareness": {
+    "dailyThought": "Thought of the day",
+    "minutes": "{{n}} min",
+    "start": "Start",
+    "complete": "I've done it",
+    "notePlaceholder": "Add a short note if you like",
+    "completedPlain": "Completed the “{{title}}” exercise.",
+    "saved": "Saved",
+    "gratitudeIntro": "Write one small thing you are grateful for today.",
+    "gratitudePlaceholder": "Today I'm grateful for…",
+    "emptyGratitude": "No gratitude notes yet.",
+    "reflectionIntro": "Take a reflection prompt and answer at your own pace.",
+    "nextPrompt": "Another prompt"
+  },
+  "growth": {
+    "todayTasks": "Today's tasks",
+    "taskPlaceholder": "New task",
+    "emptyTasks": "No tasks for today.",
+    "todayHabits": "Today's habits",
+    "noHabits": "No habits yet. You can add your own.",
+    "noShame": "Missing a day is okay. You can pick up where you left off.",
+    "habitPlaceholder": "Habit name",
+    "addHabit": "Add habit",
+    "archive": "Archive",
+    "archiveConfirm": "Remove this habit from the list? Its past records are kept.",
+    "last28": "Last 28 days",
+    "calendar": "Habit calendar",
+    "totalCompletions": "You have completed it {{n}} times.",
+    "weekly": "Weekly progress",
+    "weekSummary": "{{n}} completions this week across {{days}} active days.",
+    "stats": "Completion statistics",
+    "statHabits": "Habit completions: {{n}}",
+    "statTasks": "Completed tasks: {{n}}",
+    "statGoals": "Completed goals: {{n}}",
+    "milestones": "Milestones",
+    "noMilestones": "They will appear after your first completion.",
+    "milestone": "{{n}} completions"
+  },
+  "kindness": {
+    "markDone": "I did it",
+    "undo": "Undo",
+    "privacyNote": "No information about other people is stored here; only the kindness you did is marked.",
+    "emptyHistory": "No completed acts yet.",
+    "total": "{{n}} acts of kindness in total"
+  },
+  "people": {
+    "caution": "Readings of body language and behaviour are possibilities, not certain facts.",
+    "scenarioIntro": "Pick an option and reflect. There is no single right answer.",
+    "privacy": "Avoid writing other people's private details in your answers."
+  },
+  "progress": {
+    "title": "My Progress",
+    "emptyTitle": "No progress yet",
+    "emptyBody": "It will show up here as you complete habits and activities.",
+    "week": "Last 7 days",
+    "totals": "Totals",
+    "journal": "Entries written: {{n}}",
+    "habits": "Habit completions: {{n}}",
+    "tasks": "Completed tasks: {{n}}",
+    "goals": "Completed goals: {{n}}",
+    "kindness": "Acts of kindness: {{n}}",
+    "reads": "Cards read: {{n}}",
+    "quizzes": "Quizzes taken: {{n}}"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Your name",
+    "language": "Language",
+    "appearance": "Appearance",
+    "light": "Light",
+    "dark": "Dark",
+    "notifications": "Daily reminder",
+    "notifNote": "One local notification at 8 pm each day. No server and no tracking.",
+    "notifDenied": "Notification permission was not granted or could not be set. You can allow it in your phone settings.",
+    "privacy": "Your data is stored only on this device. No accounts, ads or tracking.",
+    "export": "Export my data",
+    "exportFailed": "Export failed.",
+    "delete": "Delete all my data",
+    "deleteTitle": "Delete all data?",
+    "deleteBody": "Your journal, habits, goals and all other records will be permanently deleted from this device.",
+    "deleted": "Your data was deleted.",
+    "replay": "Show the welcome screens again",
+    "version": "Version"
+  }
+}

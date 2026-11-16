@@ -1,0 +1,319 @@
+{
+  "app": {
+    "tagline": "Kendini keşfet. Dünyayı anla. İz bırak."
+  },
+  "common": {
+    "next": "İleri",
+    "back": "Geri",
+    "skip": "Atla",
+    "save": "Kaydet",
+    "cancel": "Vazgeç",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "loading": "Yükleniyor"
+  },
+  "errors": {
+    "title": "Bir sorun oluştu",
+    "save": "Kaydedilemedi. Lütfen tekrar dene.",
+    "load": "Veriler yüklenemedi.",
+    "retry": "Tekrar dene",
+    "boundaryTitle": "Beklenmedik bir hata"
+  },
+  "validation": {
+    "required": "Bu alan boş bırakılamaz.",
+    "tooLong": "En fazla {{max}} karakter girebilirsin."
+  },
+  "notif": {
+    "title": "NOVA",
+    "body": "Bugün kendine küçük bir an ayırmaya ne dersin?"
+  },
+  "tabs": {
+    "home": "Ana Sayfa",
+    "discover": "Keşfet",
+    "progress": "İlerleme",
+    "profile": "Profil"
+  },
+  "onboarding": {
+    "welcomeTitle": "NOVA'ya hoş geldin",
+    "welcomeBody": "Kendini tanımak, yeni şeyler öğrenmek ve çevrene iyilik katmak için sakin bir alan. Hesap gerekmez; verilerin cihazında kalır.",
+    "language": "Dil",
+    "offersTitle": "NOVA neler sunuyor?",
+    "offersBody": "Altı modül, her gün kısa ve anlamlı adımlar.",
+    "interestsTitle": "Nelerle ilgileniyorsun?",
+    "interestsBody": "İstediklerini seç, istersen atla.",
+    "goalsTitle": "Hangi alanlarda gelişmek istiyorsun?",
+    "goalsBody": "Bunu daha sonra değiştirebilirsin.",
+    "notifTitle": "Hatırlatıcılar",
+    "notifBody": "Günde en fazla bir nazik hatırlatma (20:00). Dilersen kapalı tut.",
+    "notifToggle": "Günlük hatırlatma",
+    "enterTitle": "Hazırsın",
+    "enterBody": "Sana nasıl hitap edelim?",
+    "namePlaceholder": "Adın (isteğe bağlı)",
+    "enter": "NOVA'ya gir"
+  },
+  "modules": {
+    "self": {
+      "title": "Kendini Keşfet",
+      "desc": "Günlük sorular, günlük, değerler ve hedefler."
+    },
+    "learning": {
+      "title": "Günlük Öğrenme",
+      "desc": "Her gün kısa, doğru ve ilginç bilgiler."
+    },
+    "awareness": {
+      "title": "Farkındalık",
+      "desc": "Kısa alıştırmalarla şimdiye dikkat et."
+    },
+    "growth": {
+      "title": "Kişisel Gelişim",
+      "desc": "Alışkanlıklar, görevler ve hedefler."
+    },
+    "kindness": {
+      "title": "İyilik Zinciri",
+      "desc": "Topluma küçük ama gerçek katkılar."
+    },
+    "people": {
+      "title": "İnsanları Anlamak",
+      "desc": "Empati, iletişim ve sosyal farkındalık."
+    }
+  },
+  "sections": {
+    "self": {
+      "today": "Bugün",
+      "journal": "Günlük",
+      "values": "Değerler",
+      "strengths": "Güçlü yanlar",
+      "goals": "Hedefler",
+      "history": "Geçmiş",
+      "summary": "Özet"
+    },
+    "learning": {
+      "today": "Bugün",
+      "library": "Kütüphane",
+      "favorites": "Favoriler",
+      "history": "Okuma geçmişi",
+      "quiz": "Quiz"
+    },
+    "awareness": {
+      "today": "Bugün",
+      "exercises": "Alıştırmalar",
+      "gratitude": "Şükran",
+      "reflection": "Düşünme",
+      "history": "Geçmiş"
+    },
+    "growth": {
+      "today": "Bugün",
+      "habits": "Alışkanlıklar",
+      "goals": "Hedefler",
+      "stats": "İstatistik"
+    },
+    "kindness": {
+      "today": "Bugün",
+      "ideas": "Fikirler",
+      "history": "Geçmiş"
+    },
+    "people": {
+      "cards": "Kartlar",
+      "scenarios": "Senaryolar",
+      "reflection": "Düşünme",
+      "quiz": "Quiz",
+      "saved": "Kaydedilenler"
+    }
+  },
+  "categories": {
+    "psychology": "Psikoloji",
+    "science": "Bilim",
+    "history": "Tarih",
+    "philosophy": "Felsefe",
+    "technology": "Teknoloji",
+    "general": "Genel kültür",
+    "nature": "Doğa",
+    "behavior": "İnsan davranışı",
+    "empathy": "Empati",
+    "communication": "İletişim",
+    "emotional": "Duygusal zekâ",
+    "listening": "Dinleme",
+    "conflict": "Çatışma çözümü",
+    "body": "Beden dili",
+    "social": "Sosyal farkındalık"
+  },
+  "goalAreas": {
+    "focus": "Odaklanma",
+    "habits": "Alışkanlıklar",
+    "selfKnow": "Kendini tanıma",
+    "learning": "Öğrenme",
+    "kindness": "İyilik",
+    "communication": "İletişim"
+  },
+  "kind": {
+    "daily": "Günün sorusu",
+    "journal": "Günlük",
+    "gratitude": "Şükran",
+    "strength": "Güçlü yan",
+    "awareness": "Farkındalık",
+    "reflection": "Düşünme"
+  },
+  "exType": {
+    "observe": "Gözlem",
+    "breath": "Nefes",
+    "empathy": "Empati",
+    "body": "Beden"
+  },
+  "kcat": {
+    "help": "Yardım",
+    "environment": "Çevre",
+    "community": "Topluluk"
+  },
+  "home": {
+    "greetingMorning": "Günaydın",
+    "greetingDay": "İyi günler",
+    "greetingEvening": "İyi akşamlar",
+    "dailyQuestion": "Günün sorusu",
+    "dailyCard": "Günün kartı",
+    "modules": "Modüller",
+    "recentSaved": "Son kaydedilenler",
+    "emptySaved": "Henüz kaydedilen içerik yok. Favorilere eklediklerin burada görünecek.",
+    "fact": "Doğrulanmış bilgi",
+    "interpretation": "Yorum / model",
+    "progressToday": "Bugünkü ilerleme",
+    "recommended": "Önerilen etkinlikler",
+    "recReflect": "Düşün",
+    "recAware": "Farkındalık alıştırması",
+    "recKind": "Bugünün iyiliği",
+    "tasksLabel": "Görevler {{done}}/{{total}}",
+    "habitsLabel": "Alışkanlıklar {{done}}/{{total}}",
+    "reflectionDone": "Soru yanıtlandı",
+    "reflectionOpen": "Soru bekliyor",
+    "kindDone": "İyilik yapıldı",
+    "kindOpen": "İyilik bekliyor"
+  },
+  "discover": {
+    "title": "Keşfet",
+    "search": "Tüm kartlarda ara"
+  },
+  "journal": {
+    "placeholder": "Aklından geçenleri yaz…",
+    "save": "Günlüğe ekle",
+    "empty": "Henüz kayıt yok. İlk notunu yazabilirsin.",
+    "deleteConfirm": "Bu kayıt silinsin mi?"
+  },
+  "goals": {
+    "placeholder": "Yeni bir hedef yaz",
+    "empty": "Henüz hedef yok.",
+    "deleteConfirm": "Bu hedef silinsin mi?"
+  },
+  "self": {
+    "answerPlaceholder": "Cevabını yaz (yalnızca bu cihazda saklanır)",
+    "valuesIntro": "Senin için önemli olan en fazla {{max}} değeri seç.",
+    "valuesCount": "{{n}} / {{max}} seçildi",
+    "strengthsNote": "Bu alıştırmalar kendini düşünmen içindir; klinik bir değerlendirme ya da tanı değildir.",
+    "answered": "Yanıtlandı",
+    "noStrengths": "Henüz yanıt yok.",
+    "summaryTitle": "Özetin",
+    "summaryEntries": "Toplam {{n}} kayıt yazdın.",
+    "summaryGoals": "Tamamlanan hedef: {{n}}"
+  },
+  "learning": {
+    "search": "Kartlarda ara",
+    "all": "Hepsi",
+    "noResults": "Sonuç bulunamadı.",
+    "emptyFavorites": "Henüz favori yok. Bir kartın kalp simgesine dokunarak ekleyebilirsin.",
+    "emptyHistory": "Henüz okunan kart yok. Bir kartı açtığında burada görünür.",
+    "historyCount": "{{n}} farklı kart okudun.",
+    "addFav": "Favorilere ekle",
+    "removeFav": "Favorilerden çıkar"
+  },
+  "quiz": {
+    "progress": "Soru {{n}} / {{total}}",
+    "correct": "Doğru!",
+    "wrong": "Bu sefer olmadı.",
+    "finish": "Bitir",
+    "score": "Sonuç: {{score}} / {{total}}",
+    "again": "Tekrar dene"
+  },
+  "awareness": {
+    "dailyThought": "Günün düşüncesi",
+    "minutes": "{{n}} dk",
+    "start": "Başla",
+    "complete": "Tamamladım",
+    "notePlaceholder": "İstersen kısa bir not ekle",
+    "completedPlain": "“{{title}}” alıştırmasını tamamladım.",
+    "saved": "Kaydedildi",
+    "gratitudeIntro": "Bugün için minnettar olduğun küçük bir şeyi yaz.",
+    "gratitudePlaceholder": "Bugün minnettarım…",
+    "emptyGratitude": "Henüz şükran notu yok.",
+    "reflectionIntro": "Bir düşünme sorusu seç ve kendi hızında yanıtla.",
+    "nextPrompt": "Başka bir soru"
+  },
+  "growth": {
+    "todayTasks": "Bugünün görevleri",
+    "taskPlaceholder": "Yeni görev",
+    "emptyTasks": "Bugün için görev yok.",
+    "todayHabits": "Bugünün alışkanlıkları",
+    "noHabits": "Henüz alışkanlık yok. Kendi alışkanlığını ekleyebilirsin.",
+    "noShame": "Bir günü kaçırmak sorun değil. Kaldığın yerden devam edebilirsin.",
+    "habitPlaceholder": "Alışkanlık adı",
+    "addHabit": "Alışkanlık ekle",
+    "archive": "Arşivle",
+    "archiveConfirm": "Bu alışkanlık listeden kaldırılsın mı? Geçmiş kayıtları durur.",
+    "last28": "Son 28 gün",
+    "calendar": "Alışkanlık takvimi",
+    "totalCompletions": "Toplam {{n}} kez tamamladın.",
+    "weekly": "Haftalık ilerleme",
+    "weekSummary": "Bu hafta {{n}} tamamlama, {{days}} aktif gün.",
+    "stats": "Tamamlama istatistikleri",
+    "statHabits": "Alışkanlık tamamlama: {{n}}",
+    "statTasks": "Tamamlanan görev: {{n}}",
+    "statGoals": "Tamamlanan hedef: {{n}}",
+    "milestones": "Kilometre taşları",
+    "noMilestones": "İlk tamamlamanda burada görünecek.",
+    "milestone": "{{n}} tamamlama"
+  },
+  "kindness": {
+    "markDone": "Yaptım",
+    "undo": "Geri al",
+    "privacyNote": "Burada başka insanlar hakkında bilgi kaydedilmez; yalnızca senin yaptığın iyilik işaretlenir.",
+    "emptyHistory": "Henüz tamamlanan iyilik yok.",
+    "total": "Toplam {{n}} iyilik"
+  },
+  "people": {
+    "caution": "Beden dili ve davranış yorumları olasılıktır, kesin gerçek değildir.",
+    "scenarioIntro": "Bir seçenek seç ve üzerine düşün. Tek bir doğru cevap yok.",
+    "privacy": "Yanıtlarında başkalarının özel bilgilerini yazmaktan kaçın."
+  },
+  "progress": {
+    "title": "İlerlemem",
+    "emptyTitle": "Henüz ilerleme yok",
+    "emptyBody": "Alışkanlık ve etkinlik tamamladıkça burada görünecek.",
+    "week": "Son 7 gün",
+    "totals": "Toplamlar",
+    "journal": "Yazılan kayıt: {{n}}",
+    "habits": "Alışkanlık tamamlama: {{n}}",
+    "tasks": "Tamamlanan görev: {{n}}",
+    "goals": "Tamamlanan hedef: {{n}}",
+    "kindness": "Yapılan iyilik: {{n}}",
+    "reads": "Okunan kart: {{n}}",
+    "quizzes": "Çözülen quiz: {{n}}"
+  },
+  "profile": {
+    "title": "Profil",
+    "name": "Adın",
+    "language": "Dil",
+    "appearance": "Görünüm",
+    "light": "Açık",
+    "dark": "Koyu",
+    "notifications": "Günlük hatırlatma",
+    "notifNote": "Her gün 20:00'de tek bir yerel bildirim. Sunucu ya da takip yoktur.",
+    "notifDenied": "Bildirim izni verilmedi ya da ayarlanamadı. Telefon ayarlarından izin verebilirsin.",
+    "privacy": "Verilerin yalnızca bu cihazda saklanır. Hesap, reklam veya takip yoktur.",
+    "export": "Verilerimi dışa aktar",
+    "exportFailed": "Dışa aktarma başarısız oldu.",
+    "delete": "Tüm verilerimi sil",
+    "deleteTitle": "Tüm veriler silinsin mi?",
+    "deleteBody": "Günlük, alışkanlık, hedef ve diğer tüm kayıtların bu cihazdan kalıcı olarak silinir.",
+    "deleted": "Verilerin silindi.",
+    "replay": "Karşılama ekranını yeniden göster",
+    "version": "Sürüm"
+  }
+}
